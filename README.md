@@ -2,7 +2,21 @@
 
 ## Introduction
 
-The **"BridgeSync Hub Database Optimization and Deployment"** project addresses performance and scalability issues faced by BridgeSync Hub. The project involved deploying an Amazon RDS Aurora MySQL instance and configuring an EC2 instance to enhance the database infrastructure for the address book application.
+**OrionCloud Innovations** is a cloud services provider specializing in helping businesses migrate and manage their applications on Amazon Web Services (AWS). One of their clients, **BridgeSync Hub**, an emerging startup, approached them to deploy a scalable and reliable database solution for their address book application.
+
+**Problem Description:**
+BridgeSync Hub was facing issues with database performance, scalability, and availability. They wanted to ensure a seamless user experience and eliminate downtime or data loss. To address these concerns, OrionCloud Innovations proposed a solution that involved:
+
+1. Deploying an RDS Aurora MySQL instance within a private subnet of a VPC.
+2. Configuring a web service on an EC2 instance to interact with the RDS Aurora (MySQL).
+3. Conducting tests to add, modify, and delete contacts in a simple address book stored in the RDS database through the web browser.
+
+**Tasks:**
+1. Create a VPC and the respective security group.
+2. Create an RDS Aurora MySQL instance.
+3. Connect RDS with the web app server.
+4. Access RDS from the EC2 instance.
+5. Connect to RDS Aurora.
 
 ## Prerequisites
 
